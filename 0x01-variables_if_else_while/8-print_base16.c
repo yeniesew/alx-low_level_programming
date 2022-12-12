@@ -19,7 +19,7 @@ while (while c <= 'f')
 putchar(c);
 c++;
 }
-put char('\n');
+putchar('\n');
 return (0);
 }
 
