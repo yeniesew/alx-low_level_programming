@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * main returns alphabet
- *
- * Return: always 0 (success)
+ * main - returns alphabet
+ * Return: always 0
  */
 int main(void)
 {
@@ -15,4 +13,4 @@ ch++;
 }
 putchar('\n');
 return (0);
-{		
+}
