@@ -3,11 +3,12 @@
 #include<time.h>
 /**
 * main - prints the last digit of randomly
-* Return: 0
+* Return:always 0
 */
 int main(void)
 {
 int n;
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if ((n % 10) > 5)
