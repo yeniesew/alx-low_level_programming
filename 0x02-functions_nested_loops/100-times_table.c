@@ -1,9 +1,7 @@
 #include "main.h"
-/*
+/**
 * print_times_table - Entry point
 * @n: times table to use
-* @a: integer
-* @b: integer
 * Return: 0
 */
 void print_times_table(int n)
