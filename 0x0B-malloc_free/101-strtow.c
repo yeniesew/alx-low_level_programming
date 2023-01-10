@@ -1,9 +1,10 @@
+#include <stdio.h>
 #include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
 /**
-* count_word - helper function to count the number of words in a string
-* @s: string to evaluate
-* Return: number of words
+* *count_word - helper function to count the number of words in a string
+* *@s: string to evaluate
+* *Return: number of words
 */
 int count_word(char *s)
 {
@@ -55,7 +56,6 @@ while (start < end)
 *tmp = '\0';
 matrix[k] = tmp - c;
 k++;
-c = 0;
 }
 }
 else if (c++ == 0)
