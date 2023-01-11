@@ -36,7 +36,7 @@ len++;
 words = word_len(str);
 if (words == 0)
 return (NULL);
-mal = (char) malloc(sizeof(char *) * (words + 1));
+mal = (char **) malloc(sizeof(char *) * (words + 1));
 if (mal == NULL)
 return (NULL);
 for (i = 0; i <= len; i++)
