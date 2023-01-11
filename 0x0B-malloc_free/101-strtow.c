@@ -1,17 +1,17 @@
-#include <stdlib.h>                                                          
-#include <stdio.h>                                                           
-/**                                                                          
-* word_len - Entry point                                                    
-* @s: pointer to the string                                                 
-* Return: 0                                                                 
-*/                                                                          
-int word_len(char *s)                                                        
-{                                                                            
-int flag, a, w;                                                              
-flag = 0;                                                                    
-w = 0;                                                                       
-for (a = 0; s[a] != '\0'; a++)                                               
-{                                                                            
+#include <stdlib.h>
+#include <stdio.h>
+/**
+* word_len - Entry point
+* @s: pointer to the string
+* Return: 0
+*/
+int word_len(char *s)
+{
+int flag, a, w;
+flag = 0;
+w = 0;
+for (a = 0; s[a] != '\0'; a++)
+{
 if (s[a] == ' ')
 flag = 0;
 else if (flag == 0)
@@ -36,7 +36,7 @@ len++;
 words = word_len(str);
 if (words == 0)
 return (NULL);
-mal = (char ) malloc(sizeof(char *) * (words + 1));
+mal = (char) malloc(sizeof(char *) * (words + 1));
 if (mal == NULL)
 return (NULL);
 for (i = 0; i <= len; i++)
