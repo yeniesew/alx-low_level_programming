@@ -19,9 +19,9 @@ i++;
 return (1);
 }
 /**
-* strlen - return the length of a string
+* _strlen - return the length of a string
 * @s: string to evaluate
-* eturn: the length of the string
+* Return: the length of the string
 */
 int _strlen(char *s)
 {
@@ -44,7 +44,7 @@ exit(98);
 * main - multiplies two positive numbers
 * @argc: number of arguments
 * @argv: array of arguments
-* return: always 0 (Success)
+* Return: always 0 (Success)
 */
 int main(int argc, char *argv[])
 {
@@ -68,7 +68,7 @@ carry = 0;
 for (len2 = _strlen(s2) - 1; len2 >= 0; len2--)
 {
 digit2 = s2[len2] - '0';
-carry += result[len1 + len2 + 1] + (digit1 * digit2);
+carry += result[len1 + len2 + 1] + (digit1 *digit2);
 result[len1 + len2 + 1] = carry % 10;
 carry /= 10;
 }
