@@ -10,7 +10,7 @@ int op_mod(int a, int b);
 * @b: The second number.
 * return: The sum of a and b.
 */
-int op_add(int a, int b)clear
+int op_add(int a, int b)
 {
 return (a + b);
 }
