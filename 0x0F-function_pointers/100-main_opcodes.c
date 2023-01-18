@@ -12,7 +12,7 @@ int bytes, i;
 char *arr;
 if (argc != 2)
 {
-rintf("Error\n");
+printf("Error\n");
 exit(1);
 }
 bytes = atoi(argv[1]);
@@ -27,7 +27,7 @@ for (i = 0; i < bytes; i++)
 if (i == bytes - 1)
 {
 printf("%02hhx\n", arr[i]);
-break
+break;
 }
 printf("%02hhx ", arr[i]);
 }
